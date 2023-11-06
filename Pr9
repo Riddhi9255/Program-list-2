@@ -1,0 +1,24 @@
+Write a c++ program to add two numbers using Scope Resolution operator.
+
+#include<iostream>
+using namespace std;
+
+int a = 14;
+int b = 28;
+
+int main()
+{
+    cout<<"mahemdavadi riddhi j."<<endl;
+    cout<<"220130318035 "<<endl<<endl;
+    
+    int a = 32,b = 57;
+    cout<<"The value of local a is:"<<a<<endl;
+    cout<<"The value of local b is:"<<b<<endl;
+    cout<<"The sum of local a and b is:"<<a+b<<endl<<endl;
+    
+    cout<<"The value of global a is:"<<::a<<endl;
+    cout<<"The value of global b is:"<<::b<<endl;
+    cout<<"The sum of global a and b is:"<<::a+::b<<endl;
+    
+    return 0;
+}
