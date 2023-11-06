@@ -1,0 +1,20 @@
+/Write a C++ program for setprecision() function.
+
+#include<iostream>
+#include<iomanip>
+
+using namespace std;
+
+int main()
+{
+    cout<<"mahemdavadi riddhi j."<<endl;
+    cout<<"220130318035"<<endl;
+    
+    float n;
+    cout<<"Enter the floating point number:";
+    cin>>n;
+    
+    cout<<"The value of n:"<<n<<endl;
+    cout<<"The value of n:"<<setprecision(3)<<n<<endl;
+    return 0;
+}
