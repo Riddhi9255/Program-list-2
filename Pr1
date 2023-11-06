@@ -1,0 +1,18 @@
+Write a C++ program to access global variable using scope resolution operator without using class.
+
+#include<iostream>
+
+using namespace std;
+
+int a = 28;
+
+int main()
+{
+	int a = 14;
+	cout<<"mahemdavadi riddhi j"<<endl;
+	cout<<"220130318035"<<endl;
+	
+	cout<<"The local value of a is:"<<a<<endl;
+	cout<<"The global value of a is:"<<::a<<endl;
+	return 0;
+}
