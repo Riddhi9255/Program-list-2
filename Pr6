@@ -1,0 +1,20 @@
+//Write a C++ program for setfill function.
+
+#include<iostream>
+#include<iomanip>
+
+using namespace std;
+
+int main()
+{
+    cout<<"mahemdavadi riddhi j"<<endl;
+    cout<<"220130318035"<<endl;
+    
+    int n;
+    cout<<"Enter the number:";
+    cin>>n;
+    
+    cout<<"The value of n is:"<<n<<endl;
+    cout<<"The value of n is:"<<setw(6)<<setfill('#')<<n<<endl;
+    return 0;
+}
