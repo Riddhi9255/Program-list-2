@@ -1,0 +1,27 @@
+//wap to calculate cube of a given number using inline function 
+#include <iostream.h>
+using namespace std;
+inline int cube(int r) 
+{
+
+return r*r*r;
+
+}
+
+void main() {
+
+clrscr();
+
+int r;
+cout<<"mahemdavadi riddhi j"<<endl;
+cout<<"220130318035"<<endl;
+cout<<"CUBE using inline function \n";
+
+cout<<"Enter value to compute cube: ";
+
+cin>>r;
+
+cout<<"cube of the number: "<<cube(r);
+return 0;
+
+}
