@@ -1,0 +1,17 @@
+/ wap to  demonstrate use the const argument    
+#include <iostream>  
+#include <conio.h>  
+using namespace std;  
+int main ()  
+{  
+// declare variables  
+const int x = 20;  
+const int y = 25;  
+int z;  
+// add the value of x and y  
+z = x + y;  
+cout << " The sum of the x and y is: " << z << endl;  
+cout<<"mahemdavadi riddhi j"<<endl;
+cout<<"220130318035"<<endl;
+return 0;  
+}  
