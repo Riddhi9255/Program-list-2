@@ -1,0 +1,19 @@
+wap to demonstrate default argument and find area of circle 
+#include <iostream.h>
+using namespace std;
+double calculateArea(double radius, double pi = 3.14159265359) {
+    return pi * radius * radius;
+}
+
+int main() {
+    double radius;
+     cout<<"mahemdavadi riddhi j"<<endl;
+     cout<<"220130318035"<<endl;
+    cout << "Enter the radius of the circle: ";
+    cin >> radius;
+
+    double area = calculateArea(radius); // Pi is taken as the default argument
+    cout << "The area of the circle is: " << area << std::endl;
+
+    return 0;
+}
