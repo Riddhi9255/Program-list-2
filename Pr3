@@ -1,0 +1,48 @@
+//Write a C++ program to define a function outside the class using scope resolution operator.
+
+#include<iostream>
+#include<string>
+using namespace std;
+
+class info
+{
+	private:
+		int age;
+		long long er_no;
+		string name;
+	public:
+		void getdata();
+		void print();
+};
+
+void info :: getdata()
+{
+	cout<<"Enter your name:";
+	cin>>name;
+	cout<<"Enter your age:";
+	cin>>age;
+	cout<<"Enter your Er_no:";
+	cin>>er_no;
+}
+
+void info :: print()
+{
+	cout<<"Your name is:"<<name<<endl;
+	cout<<"Your age is:"<<age<<endl;
+	cout<<"Your Er_no is:"<<er_no<<endl;
+}
+
+int main()
+{
+	cout<<"mahemdavadi riddhi j"<<endl;
+	cout<<"220130318035"<<endl;
+	info i1,i2;
+	
+	i1.getdata();
+	i1.print();
+	
+	i2.getdata();
+	i2.print();
+	
+	return 0;
+}
