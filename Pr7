@@ -1,0 +1,27 @@
+/Write a C++ program that demonstrates use of enum user-defined data type.
+
+#include<iostream>
+using namespace std;
+
+enum gate{F,T};
+
+int main()
+{
+    cout<<"mahemdavadi riddhi j"<<endl;
+    cout<<"220130318035"<<endl<<endl;
+    
+    cout<<"Truth Table of AND Gate:"<<endl;
+    cout<<"A  B  A*B"<<endl;
+    cout<<F<<"  "<<F<<"  "<<F<<endl;
+    cout<<F<<"  "<<T<<"  "<<F<<endl;
+    cout<<T<<"  "<<F<<"  "<<F<<endl;
+    cout<<T<<"  "<<T<<"  "<<T<<endl<<endl;
+    
+    cout<<"Truth Table of OR Gate:"<<endl;
+    cout<<"A  B  A+B"<<endl;
+    cout<<F<<"  "<<F<<"  "<<F<<endl;
+    cout<<F<<"  "<<T<<"  "<<T<<endl;
+    cout<<T<<"  "<<F<<"  "<<T<<endl;
+    cout<<T<<"  "<<T<<"  "<<T<<endl;
+    return 0;
+}
