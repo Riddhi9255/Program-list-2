@@ -1,0 +1,22 @@
+/Write a C++ program to convert km to cm, meter, inch and feet using manipulators endl, setw, setfill and setprecision.
+
+#include<iostream>
+#include<iomanip>
+using namespace std;
+
+int main()
+{
+    cout<<"mahemdavadi riddhi j."<<endl;
+    cout<<"220130318035"<<endl<<endl;;
+    
+    float km;
+    cout<<"Enter the distance in KM:";
+    cin>>km;
+    
+    cout<<"The distance in KM:"<<setfill('0')<<setw(8)<<km<<endl;
+    cout<<"The distance in CM:"<<setfill('0')<<setw(8)<<km*100000<<endl;
+    cout<<"The distance in  M:"<<setfill('0')<<setw(8)<<km*1000<<endl;
+    cout<<"The distance in IN:"<<setfill('0')<<setw(8)<<setprecision(7)<<km*39370.0787<<endl;
+    cout<<"The distance in FT:"<<setfill('0')<<setw(8)<<setprecision(9)<<km*3280.84<<endl;
+    return 0;
+}
